@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'IM Fell English SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('IM Fell English SC Regular'), local('IMFellEnglishSC-Regular'), url(/assets/fonts/IMFellEnglishSC-Regular.ttf) format("truetype");
+}
+
+:root{
+    --color-main: #ff9e00;
+    --color-text: #240046;
+    --color-white: #ffffff;
+}
+
+body{
+    background-color: var(--color-main);
+    color: var(--color-text);
+    font-family: 'IM Fell English SC', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    picture:nth-child(1){
+        grid-column-end: 3;
+    }
+}
+
+img{
+    width: 200px;
+}
