@@ -24,11 +24,8 @@ body{
 main{
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
-    picture:nth-child(1){
-        grid-column-end: 3;
-    }
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
 }
 
 img{
