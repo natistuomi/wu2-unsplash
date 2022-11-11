@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Peru
+---
+
+<div>
+    <h1>{{peru[0].name}}</h1>
+    <p>Capital: {{peru[0].capital}}</p>
+    <p>Continent: {{peru[0].subregion}}</p>
+    <p>Population: {{peru[0].population}}</p>
+    <p>Time-zon: {{peru[0].timezones}}</p>
+    <p>Currency: {{peru[0].currencies[0].name}}</p>
+    <img src="{{peru[0].flag}}" alt="" class="flag">
+</div>
