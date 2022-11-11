@@ -17,6 +17,7 @@ body{
     color: var(--color-text);
     font-family: 'IM Fell English SC', serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
